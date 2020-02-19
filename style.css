@@ -1,0 +1,129 @@
+/* @import url('https://fonts.googlepis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap'); */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+header
+{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, rgb(0, 68, 255) , rgb(0, 255, 242), rgb(206, 248, 253)); 
+	/* background: -webkit-linear-gradient(left, red , yellow, green);
+	background: -o-linear-gradient(right, red, yellow, green); 
+	background: -moz-linear-gradient(right, red, yellow, green); */
+    z-index: 1000;
+}
+header a img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+header .logo
+{
+    color: #111;
+    font-family: cursive;
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.sak .lx {
+    border-color: #f1c40f;
+    color: #fff;
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition:  300ms ease-in-out;
+  }
+.sak .lx:hover {
+    background-position: 0;
+  }
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+header ul li a
+{
+    position: relative;
+    padding: 5px 10px;
+    color: #111;
+    border-radius: 50px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+header ul li a.active
+{
+    background: yellow;
+}
+header ul li a:hover
+{
+    background:blue;
+    color:#fff;
+}
+.toggle
+{
+    display: none;
+}
+section
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, rgb(199, 192, 192) , rgb(187, 56, 56), rgb(233, 0, 0)); 
+    color: #fff;
+    align-items: center;
+    min-height: 100vh;
+    padding: 150px 100px 100px;
+}
+section img
+{
+    max-height: 350px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+section h2
+{
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+section p
+{
+    font-size: 18px;
+}
+section a
+{
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 18px;
+    color: rgb(0, 38, 255);
+    margin-top: 20px;
+}
+section:nth-child(odd)
+{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(0, 0, 0) , rgb(61, 68, 68), rgb(206, 248, 253)); 
+    background: -webkit-linear-gradient(left, red , yellow, green);
+	background: -o-linear-gradient(right, red, yellow, green); 
+	background: -moz-linear-gradient(right, red, yellow, green);
+    color: #fff;
+}
+
